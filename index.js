@@ -64,10 +64,7 @@ function createRock(x) {
   rock.style.left = `${x}px`  //0-380 random number
 
   // Hmmm, why would we have used `var` here?
-  var top = 0
-  top = rock.style.top;
-
-  rock.style.top = top
+  var top = rock.style.top = 0
 
   /**
    * Now that we have a rock, we'll need to append
